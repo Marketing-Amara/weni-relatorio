@@ -1,0 +1,4 @@
+# Os caches de mensagens/contatos contêm dados de contatos (nomes, textos
+# de mensagens) e não devem ficar guardados para sempre no histórico do git.
+# Eles são mantidos só no cache do GitHub Actions (veja o workflow).
+data/*.json
