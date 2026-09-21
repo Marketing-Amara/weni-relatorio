@@ -30,7 +30,7 @@ DATA_INICIO = "2026-06-14T00:00:00Z"  # não busca mensagens de antes disso
 PALAVRAS_ALVO = ["vendedor", "atendente", "humano", "comercial"]
 VALOR_HUNTER_ALVO = "digital"
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "output"
 MESSAGES_CACHE_PATH = DATA_DIR / "messages_cache.json"
